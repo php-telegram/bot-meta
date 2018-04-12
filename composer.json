@@ -1,0 +1,41 @@
+{
+    "name": "php-telegram/bot-meta",
+    "description": "Telegram Bot API Models for PHP.",
+    "keywords": [
+        "api",
+        "bot",
+        "meta",
+        "telegram",
+        "tg",
+        "tgbot"
+    ],
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "Ming Tsay",
+            "email": "mt@moztw.org",
+            "homepage": "https://mt.rmstudio.tw",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "mt@moztw.org",
+        "issues": "https://github.com/php-telegram/bot-meta/issues",
+        "source": "https://github.com/php-telegram/bot-meta",
+        "wiki": "https://github.com/php-telegram/bot-meta/wiki"
+    },
+    "suggest": {
+        "php-telegram/bot": "Telegram Bot API Implement for PHP."
+    },
+    "autoload": {
+        "psr-4": {
+            "TelegramBot\\Model\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/php-telegram/bot-meta"
+        }
+    ]
+}
